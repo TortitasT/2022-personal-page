@@ -1,54 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
 
-    <meta name="description" content="Tortitas personal page.">
-    <meta name="keywords" content="Games, Itch.io, Indie, Developer, Personal">
-    <meta name="author" content="Tortitas">
+    <title>Tortitas.eu</title>
+    <meta name="description" content="Tortitas personal page." />
+    <meta
+      name="keywords"
+      content="Games, Itch.io, Indie, Developer, personal, Tortitas"
+    />
+    <meta name="author" content="Tortitas" />
 
-    <title>Tortitas</title>
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://tortitas.eu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://tortitas.eu/nsfw/kirby.png" />
+    <meta property="og:title" content="Tortitas.eu" />
+    <meta property="og:description" content="Tortitas personal page." />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:title" content="Tortitas.eu" />
+    <meta name="twitter:description" content="Tortitas personal page." />
+    <meta name="twitter:url" content="https://tortitas.eu/nsfw/kirby.png" />
+    <meta name="twitter:card" content="summary" />
+
     <style>
-        *{
-            text-align: center;
-            font-family: 'Courier New', Courier, monospace;
-            padding: 0;
-            margin: 0;
-        }
+      * {
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        padding: 0;
+        margin: 0;
 
-        header{
-            margin: auto;
-            margin-top: 50px;
-            width: 100%;
-            font-size: 50pt;
-        }
-        h3{
-            margin-top: 10px;
-            margin-bottom: 5px;
-        }
-        li{
-            list-style-type: none;
-        }
+        background-color: #121212;
+        color: white;
+      }
+      a {
+        color: aquamarine;
+        transition: 0.2s;
+        font-size: 3vh;
+      }
+      a:hover {
+        color: aqua;
+        font-size: 5vh;
+      }
+
+      header {
+        margin: auto;
+        margin-top: 50px;
+        width: 100%;
+        font-size: 10vh;
+      }
+      h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 5vh;
+      }
+      li {
+        list-style-type: none;
+      }
+
+      .social {
+        margin-top: 50px;
+        vertical-align: middle;
+      }
+      .social li {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .social i {
+        font-size: 3vh;
+        transition: 0.2s;
+      }
+      .social i:hover {
+        font-size: 5vh;
+        text-shadow: 2px 2px aquamarine;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>π</h1>
+      <h1>π</h1>
     </header>
     <body>
-        <ul>
-            <li><h3>Games</h3></li>
-            <li><a href="https://tortitas.itch.io/mio-cid">Mio Cid</a></li>
-            <li><a href="https://tortitas.itch.io/tief">Tief</a></li>
-            <li><a href="https://tortitas.itch.io/abasement">Abasement</a></li>
-            <li><a href="https://tortitas.eu/wordle">Wordle Clone</a></li>
+      <ul>
+        <li><h3>Games</h3></li>
+        <li><a href="https://tortitas.itch.io/mio-cid">Mio Cid</a></li>
+        <li><a href="https://tortitas.itch.io/tief">Tief</a></li>
+        <li><a href="https://tortitas.itch.io/abasement">Abasement</a></li>
+        <li><a href="https://tortitas.eu/wordle">Wordle Clone</a></li>
 
-            <li><h3>Other</h3></li>
-            <li><a href="https://tortitas.eu/subnet">Subnet</a></li>
-            <li><a href="https://tortitas.eu/nsfw">:)</a></li>
-        </ul>   
+        <li><h3>Other</h3></li>
+        <li><a href="https://tortitas.eu/subnet">Subnet</a></li>
+        <li><a href="https://tortitas.eu/nsfw">:)</a></li>
+      </ul>
     </body>
-</body>
+    <footer>
+      <ul class="social">
+        <li>
+          <a href="https://twitter.com/tortitas_t" target="_blank"
+            ><i class="bi bi-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/TortitasT" target="_blank"
+            ><i class="bi bi-github"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://tortitas.itch.io/" target="_blank"
+            ><i class="bi bi-joystick"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
